@@ -90,4 +90,9 @@ Nabin Ghorui
 📧 ghoruinabin29@gmail.com | 🔗 [GitHub Profile](https://github.com/dev-nabin88)
 
 License
+---------
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE).
 This project is for educational and demonstration purposes only.
