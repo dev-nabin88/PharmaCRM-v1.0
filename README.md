@@ -35,7 +35,7 @@ Data stored and managed using MS SQL Server for fast and secure operations.
 ---------------------------
 
 Cross-platform app developed with React Native.
-Smooth, responsive UI optimized for both Android and iOS.
+Smooth, responsive UI optimized for both Android.
 
 Tech Stack
 ------------
