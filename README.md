@@ -1,8 +1,10 @@
 Pharma CRM App
+
 A mobile Customer Relationship Management (CRM) application built for the pharmaceutical sector. Developed during my internship at Inner Eye Consultancy Services LLP.
 The app enables pharma field employees to manage Daily Call Reports (DCR), live geolocation tracking, and streamline customer interactions.
 
 Features
+
 📋 Daily Call Report (DCR):
 
 Fetch DCR entries from server.
@@ -69,20 +71,8 @@ Ensure that backend APIs are live and accessible.
 Screenshots
 (Add some screenshots here if you have them, like login screen, DCR page, geolocation map, etc.)
 
-Project Structure
-plaintext
-Copy
-Edit
-/pharma-crm-app
-|-- /android
-|-- /ios
-|-- /src
-|    |-- /components
-|    |-- /screens
-|    |-- /services (API Calls)
-|    |-- /utils
-|-- App.js
-|-- package.json
+
+
 Contributing
 This project was part of an internship project and is currently maintained as a personal showcase.
 If you want to contribute or suggest improvements, feel free to create an issue or a pull request.
