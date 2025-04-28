@@ -11,6 +11,12 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		50AC1DD895A24BCEA8DF1E5A /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD662630C76440B29247B51D /* Kanit-Medium.ttf */; };
+		D0CC44B92F9343F48DFF9503 /* Kanit-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8EDB07C55B945F6A0CBCCD3 /* Kanit-MediumItalic.ttf */; };
+		89F407FB2B4A45588F7382CF /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A561C99CE940E6825E1C48 /* Kanit-Regular.ttf */; };
+		3BF7C76BF3B74FAD8F282B7B /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B16949C6E95F4137B8CCB08A /* Kanit-SemiBold.ttf */; };
+		AC87E90F84454CD3B5E148DE /* Kanit-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 777AA76821E247BF9FBE707E /* Kanit-SemiBoldItalic.ttf */; };
+		69C14484CB7A421DACC99B22 /* Kanit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B37BC3CF58364A9CB985B000 /* Kanit-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CRM/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CRM/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BD662630C76440B29247B51D /* Kanit-Medium.ttf */ = {isa = PBXFileReference; name = "Kanit-Medium.ttf"; path = "../assets/fonts/Kanit-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8EDB07C55B945F6A0CBCCD3 /* Kanit-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-MediumItalic.ttf"; path = "../assets/fonts/Kanit-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D6A561C99CE940E6825E1C48 /* Kanit-Regular.ttf */ = {isa = PBXFileReference; name = "Kanit-Regular.ttf"; path = "../assets/fonts/Kanit-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B16949C6E95F4137B8CCB08A /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; name = "Kanit-SemiBold.ttf"; path = "../assets/fonts/Kanit-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		777AA76821E247BF9FBE707E /* Kanit-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Kanit-SemiBoldItalic.ttf"; path = "../assets/fonts/Kanit-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B37BC3CF58364A9CB985B000 /* Kanit-Thin.ttf */ = {isa = PBXFileReference; name = "Kanit-Thin.ttf"; path = "../assets/fonts/Kanit-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +105,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7F86A2F3D28D423381400DAF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +128,20 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		7F86A2F3D28D423381400DAF /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				BD662630C76440B29247B51D /* Kanit-Medium.ttf */,
+				B8EDB07C55B945F6A0CBCCD3 /* Kanit-MediumItalic.ttf */,
+				D6A561C99CE940E6825E1C48 /* Kanit-Regular.ttf */,
+				B16949C6E95F4137B8CCB08A /* Kanit-SemiBold.ttf */,
+				777AA76821E247BF9FBE707E /* Kanit-SemiBoldItalic.ttf */,
+				B37BC3CF58364A9CB985B000 /* Kanit-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +212,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				50AC1DD895A24BCEA8DF1E5A /* Kanit-Medium.ttf in Resources */,
+				D0CC44B92F9343F48DFF9503 /* Kanit-MediumItalic.ttf in Resources */,
+				89F407FB2B4A45588F7382CF /* Kanit-Regular.ttf in Resources */,
+				3BF7C76BF3B74FAD8F282B7B /* Kanit-SemiBold.ttf in Resources */,
+				AC87E90F84454CD3B5E148DE /* Kanit-SemiBoldItalic.ttf in Resources */,
+				69C14484CB7A421DACC99B22 /* Kanit-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

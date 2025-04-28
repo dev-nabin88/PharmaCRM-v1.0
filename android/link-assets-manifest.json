@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Kanit-Medium.ttf",
+      "sha1": "61ac6e618ea64ca7f4ae2444194e0bad4c72c8f9"
+    },
+    {
+      "path": "assets/fonts/Kanit-MediumItalic.ttf",
+      "sha1": "d4efe4ef0132a00a569ddcfb7bc292062fcd96ba"
+    },
+    {
+      "path": "assets/fonts/Kanit-Regular.ttf",
+      "sha1": "4d7b70e9717ae0adecc332fac9af7457063886a4"
+    },
+    {
+      "path": "assets/fonts/Kanit-SemiBold.ttf",
+      "sha1": "9715fb086966063735f84aa37f3e2dcd654ce999"
+    },
+    {
+      "path": "assets/fonts/Kanit-SemiBoldItalic.ttf",
+      "sha1": "ab47c69150c1552dc01230b7acd9423e2c3e6c47"
+    },
+    {
+      "path": "assets/fonts/Kanit-Thin.ttf",
+      "sha1": "c01a1c4d8a0cad6b8b4988b03c9c8f3dfa19242c"
+    }
+  ]
+}
