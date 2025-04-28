@@ -1,97 +1,95 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Pharma CRM App
+A mobile Customer Relationship Management (CRM) application built for the pharmaceutical sector. Developed during my internship at Inner Eye Consultancy Services LLP.
+The app enables pharma field employees to manage Daily Call Reports (DCR), live geolocation tracking, and streamline customer interactions.
 
-# Getting Started
+Features
+📋 Daily Call Report (DCR):
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+Fetch DCR entries from server.
 
-## Step 1: Start Metro
+Submit new DCR reports with real-time data.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+📍 Live Geolocation Tracking:
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+Track the user's location in real-time for activity monitoring.
 
-```sh
-# Using npm
-npm start
+Accurate and optimized location services.
 
-# OR using Yarn
-yarn start
-```
+🔗 API Integration:
 
-## Step 2: Build and run your app
+Developed custom REST APIs using .NET Framework and C#.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+APIs handle DCR operations, user authentication, and geolocation updates.
 
-### Android
+🗄️ Database Management:
 
-```sh
-# Using npm
-npm run android
+Data stored and managed using MS SQL Server for fast and secure operations.
 
-# OR using Yarn
-yarn android
-```
+📱 Mobile App Development:
 
-### iOS
+Cross-platform app developed with React Native.
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+Smooth, responsive UI optimized for both Android and iOS.
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+Tech Stack
 
-```sh
-bundle install
-```
+Technology	Usage
+React Native	Mobile App Frontend
+C# (.NET Framework)	API Development
+MS SQL Server	Database
+Android Studio	App Development & Debugging
+GitHub	Version Control
+Installation
+Backend (API Server)
+Clone the backend repository.
 
-Then, and every time you update your native dependencies, run:
+Open the project in Visual Studio.
 
-```sh
-bundle exec pod install
-```
+Configure your MS SQL Server connection string in the application settings.
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+Run the API server.
 
-```sh
-# Using npm
-npm run ios
+Mobile App (React Native)
+Clone this repository.
 
-# OR using Yarn
-yarn ios
-```
+Install dependencies:
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+bash
+Copy
+Edit
+npm install
+Run the app:
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+bash
+Copy
+Edit
+npx react-native run-android
+Ensure that backend APIs are live and accessible.
 
-## Step 3: Modify your app
+Screenshots
+(Add some screenshots here if you have them, like login screen, DCR page, geolocation map, etc.)
 
-Now that you have successfully run the app, let's make changes!
+Project Structure
+plaintext
+Copy
+Edit
+/pharma-crm-app
+|-- /android
+|-- /ios
+|-- /src
+|    |-- /components
+|    |-- /screens
+|    |-- /services (API Calls)
+|    |-- /utils
+|-- App.js
+|-- package.json
+Contributing
+This project was part of an internship project and is currently maintained as a personal showcase.
+If you want to contribute or suggest improvements, feel free to create an issue or a pull request.
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Author
+Nabin Ghorui
+📧 ghoruinabin29@gmail.com | 🔗 GitHub Profile
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+License
+This project is for educational and demonstration purposes only.
