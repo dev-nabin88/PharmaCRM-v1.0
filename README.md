@@ -79,7 +79,7 @@ If you want to contribute or suggest improvements, feel free to create an issue 
 
 Author
 Nabin Ghorui
-📧 ghoruinabin29@gmail.com | 🔗 GitHub Profile
+📧 ghoruinabin29@gmail.com | 🔗 [GitHub Profile](https://github.com/dev-nabin88)
 
 License
 This project is for educational and demonstration purposes only.
